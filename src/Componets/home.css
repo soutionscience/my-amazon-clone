@@ -1,0 +1,12 @@
+.home_banner{
+    width: 100%;
+   /* // height: 200px;  */
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+    /* background-image: url("../assets/images/banner1.jpg"); */
+}
+
+.home{
+    max-width: 1500px;
+    margin-right: auto;;
+    margin-bottom: auto;
+}
