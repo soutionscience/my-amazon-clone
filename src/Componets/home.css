@@ -3,10 +3,22 @@
    /* // height: 200px;  */
     mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
     /* background-image: url("../assets/images/banner1.jpg"); */
+    z-index: -1;
+    margin-bottom: -150px;
 }
 
 .home{
     max-width: 1500px;
     margin-right: auto;;
     margin-bottom: auto;
+}
+
+.home_row{
+    /* background-color: red; */
+    display: flex;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    margin-right: 5px;
 }
